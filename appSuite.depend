@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1430602863 source:c:\users\eric\documents\github\appsuite\main.cpp
+	<iostream>
+	<calc.h>
+	<tempConv.h>
+	<stdio.h>
+	<stdlib.h>
+
+1430600814 c:\users\eric\documents\github\appsuite\include\calc.h
+
+1430601612 source:c:\users\eric\documents\github\appsuite\src\calc.cpp
+	"calc.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1430602683 source:c:\users\eric\documents\github\appsuite\src\tempconv.cpp
+	"tempConv.h"
+	<stdio.h>
+	<stdlib.h>
+	<iostream>
+
+1430602566 c:\users\eric\documents\github\appsuite\include\tempconv.h
+
