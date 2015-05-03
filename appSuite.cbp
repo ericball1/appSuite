@@ -34,10 +34,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="C++-unofficial.sh-600x600.ico" />
 		<Unit filename="include/calc.h" />
+		<Unit filename="include/dataConv.h" />
 		<Unit filename="include/tempConv.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="resource.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
 		<Unit filename="src/calc.cpp" />
+		<Unit filename="src/dataConv.cpp" />
 		<Unit filename="src/tempConv.cpp" />
 		<Extensions>
 			<code_completion />

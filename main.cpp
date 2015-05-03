@@ -1,6 +1,8 @@
 #include <iostream>
+#include <iomanip>
 #include <calc.h>
 #include <tempConv.h>
+#include <dataConv.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -9,6 +11,7 @@ using namespace std;
 int main()
 {
     char mode;
+    char quit;
     start:
     system("CLS");
     cout << "C++ Console Application Suite Version E001" << endl;
@@ -16,6 +19,7 @@ int main()
     cout << "========================" << endl;
     cout << "1: Calculator" << endl;
     cout << "2: Temperature Converter" << endl;
+    cout << "3: Data Converter" << endl;
     cout << "0: Quit" << endl;
     cout << "========================" << endl;
     cout << endl;
@@ -28,11 +32,19 @@ int main()
         case '2':
             tempConv();
             break;
+        case '3':
+            dataConv();
+            break;
         case '0':
             return 0;
             break;
         default:
             goto start;
+    }
+    cout << "Would you like to do something else? (Y/N) ";
+    cin >> quit;
+    if (quit == 'y' || quit == 'Y') {
+        goto start;
     }
     return 0;
 }
