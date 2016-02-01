@@ -1,38 +1,49 @@
 # depslib dependency file v1.0
-1430621667 source:c:\users\eric\documents\github\appsuite\main.cpp
+1454292663 source:c:\users\eric\documents\github\appsuite\main.cpp
 	<iostream>
 	<iomanip>
 	<calc.h>
 	<tempConv.h>
 	<dataConv.h>
+	<license.h>
 	<stdio.h>
 	<stdlib.h>
 
-1430600814 c:\users\eric\documents\github\appsuite\include\calc.h
+1454291850 c:\users\eric\documents\github\appsuite\include\calc.h
 
-1430621651 source:c:\users\eric\documents\github\appsuite\src\calc.cpp
+1454292709 source:c:\users\eric\documents\github\appsuite\src\calc.cpp
 	"calc.h"
 	<stdio.h>
 	<stdlib.h>
 	<iostream>
 	<iomanip>
 
-1430621658 source:c:\users\eric\documents\github\appsuite\src\tempconv.cpp
+1454292709 source:c:\users\eric\documents\github\appsuite\src\tempconv.cpp
 	"tempConv.h"
 	<stdio.h>
 	<stdlib.h>
 	<iostream>
 	<iomanip>
 
-1430602566 c:\users\eric\documents\github\appsuite\include\tempconv.h
+1454291850 c:\users\eric\documents\github\appsuite\include\tempconv.h
 
-1430618353 source:c:\users\eric\documents\github\appsuite\resource.rc
+1454291850 source:c:\users\eric\documents\github\appsuite\resource.rc
 
-1430618520 c:\users\eric\documents\github\appsuite\include\dataconv.h
+1454291850 c:\users\eric\documents\github\appsuite\include\dataconv.h
 
-1430621249 source:c:\users\eric\documents\github\appsuite\src\dataconv.cpp
+1454292709 source:c:\users\eric\documents\github\appsuite\src\dataconv.cpp
 	"dataConv.h"
 	<iostream>
+	<iomanip>
+	<stdio.h>
+	<stdlib.h>
+
+1454292140 c:\users\eric\documents\github\appsuite\include\license.h
+
+1454293114 source:c:\users\eric\documents\github\appsuite\src\license.cpp
+	"license.h"
+	<iostream>
+	<iomanip>
 	<stdio.h>
 	<stdlib.h>
 

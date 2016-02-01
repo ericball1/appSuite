@@ -10,7 +10,7 @@ tempConv::tempConv()
     char quit;
     float num1;
     start:
-    system("CLS");
+    cout << string( 100, '\n' );
     cout << "E-Temperature Converter C++ Edition" << endl;
     cout << endl;
     cout << "========================" << endl;
@@ -22,14 +22,14 @@ tempConv::tempConv()
     cin >> choice;
     switch (choice) {
         case '1':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "Degrees in Fahrenheit: ";
             cin >> num1;
             cout << endl;
             cout << num1 << " in Celsius is " << (num1 - 32) * 5 / 9 << endl;
             break;
         case '2':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "Degrees in Celsius: ";
             cin >> num1;
             cout << endl;

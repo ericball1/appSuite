@@ -11,7 +11,7 @@ calc::calc()
     float num2;
     char quit;
     start:
-    system("CLS");
+    cout << string( 100, '\n' );
     cout << "E-Calculator C++ Edition" << endl;
     cout << endl;
     cout << "=================" <<endl;
@@ -25,7 +25,7 @@ calc::calc()
     cin >> operation;
     switch (operation) {
         case '1':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "What is the first number? ";
             cin >> num1;
             cout << "What is the second number? ";
@@ -34,7 +34,7 @@ calc::calc()
             cout << "The answer is: " << num1 + num2 << endl;
             break;
         case '2':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "What is the first number? ";
             cin >> num1;
             cout << "What is the second number? ";
@@ -43,7 +43,7 @@ calc::calc()
             cout << "The answer is: " << num1 - num2 << endl;
             break;
         case '3':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "What is the first number? ";
             cin >> num1;
             cout << "What is the second number? ";
@@ -52,7 +52,7 @@ calc::calc()
             cout << "The answer is: " << num1 * num2 << endl;
             break;
         case '4':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "What is the first number? ";
             cin >> num1;
             cout << "What is the second number? ";

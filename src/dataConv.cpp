@@ -10,7 +10,7 @@ dataConv::dataConv()
     long double q;
     char quit;
     start:
-    system("CLS");
+    cout << string( 100, '\n' );
     cout << "E-Data Converter" << endl;
     cout << endl;
     cout << "===========" << endl;
@@ -25,7 +25,7 @@ dataConv::dataConv()
     cin >> type;
     switch (type) {
         case '1':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "How many bytes? ";
             cin >> q;
             cout << endl;
@@ -37,7 +37,7 @@ dataConv::dataConv()
             cout << endl;
             break;
         case '2':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "How many kilobytes? ";
             cin >> q;
             cout << endl;
@@ -49,7 +49,7 @@ dataConv::dataConv()
             cout << endl;
             break;
         case '3':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "How many megabytes? ";
             cin >> q;
             cout << endl;
@@ -61,7 +61,7 @@ dataConv::dataConv()
             cout << endl;
             break;
         case '4':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "How many gigabytes? ";
             cin >> q;
             cout << endl;
@@ -73,7 +73,7 @@ dataConv::dataConv()
             cout << endl;
             break;
         case '5':
-            system("CLS");
+            cout << string( 100, '\n' );
             cout << "How many terabytes? ";
             cin >> q;
             cout << endl;
