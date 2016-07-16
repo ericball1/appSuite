@@ -2,6 +2,6 @@
 
 #This is my horrible C++ "app" collection
 
-Building Instuctions:
+Build Instuctions:
 
     make
