@@ -30,10 +30,10 @@ dataConv::dataConv()
             cin >> q;
             cout << endl;
             cout << setprecision(20) << q << " bytes is equal to: \n" <<
-            q / 1024 << " Kilobytes\n" <<
-            q / 1024 / 1024 << " Megabytes\n" <<
-            q / 1024 / 1024 / 1024 << " Gigabytes\n" <<
-            q / 1024 / 1024 / 1024 / 1024 << " Terabytes\n" << endl;
+            q / 1000 << " Kilobytes\n" <<
+            q / 1000 / 1000 << " Megabytes\n" <<
+            q / 1000 / 1000 / 1000 << " Gigabytes\n" <<
+            q / 1000 / 1000 / 1000 / 1000 << " Terabytes\n" << endl;
             cout << endl;
             break;
         case '2':
@@ -42,10 +42,10 @@ dataConv::dataConv()
             cin >> q;
             cout << endl;
             cout << setprecision(20) << q << " kilobytes is equal to: \n" <<
-            q * 1024 << " bytes\n" <<
-            q / 1024 << " Megabytes\n" <<
-            q / 1024 / 1024 << " Gigabytes\n" <<
-            q / 1024 / 1024 / 1024 << " Terabytes\n" << endl;
+            q * 1000 << " bytes\n" <<
+            q / 1000 << " Megabytes\n" <<
+            q / 1000 / 1000 << " Gigabytes\n" <<
+            q / 1000 / 1000 / 1000 << " Terabytes\n" << endl;
             cout << endl;
             break;
         case '3':
@@ -54,10 +54,10 @@ dataConv::dataConv()
             cin >> q;
             cout << endl;
             cout << setprecision(20) << q << " megabytes is equal to: \n" <<
-            q * 1024 * 1024 << " bytes\n" <<
-            q * 1024 << " Kilobytes\n" <<
-            q / 1024 << " Gigabytes\n" <<
-            q / 1024 / 1024 << " Terabytes\n" << endl;
+            q * 1000 * 1000 << " bytes\n" <<
+            q * 1000 << " Kilobytes\n" <<
+            q / 1000 << " Gigabytes\n" <<
+            q / 1000 / 1000 << " Terabytes\n" << endl;
             cout << endl;
             break;
         case '4':
@@ -66,10 +66,10 @@ dataConv::dataConv()
             cin >> q;
             cout << endl;
             cout << setprecision(20) << q << " gigabytes is equal to: \n" <<
-            q * 1024 * 1024 * 1024 << " bytes\n" <<
-            q * 1024 * 1024 << " Kilobytes\n" <<
-            q * 1024 << " Megabytes\n" <<
-            q / 1024 << " Terabytes\n" << endl;
+            q * 1000 * 1000 * 1000 << " bytes\n" <<
+            q * 1000 * 1000 << " Kilobytes\n" <<
+            q * 1000 << " Megabytes\n" <<
+            q / 1000 << " Terabytes\n" << endl;
             cout << endl;
             break;
         case '5':
@@ -78,10 +78,10 @@ dataConv::dataConv()
             cin >> q;
             cout << endl;
             cout << setprecision(20) << q << " terabytes is equal to: \n" <<
-            q * 1024 * 1024 * 1024 * 1024 << " bytes\n" <<
-            q * 1024 * 1024 * 1024 << " Kilobytes\n" <<
-            q * 1024 * 1024 << " Megabytes\n" <<
-            q * 1024 << " Gigabytes\n" << endl;
+            q * 1000 * 1000 * 1000 * 1000 << " bytes\n" <<
+            q * 1000 * 1000 * 1000 << " Kilobytes\n" <<
+            q * 1000 * 1000 << " Megabytes\n" <<
+            q * 1000 << " Gigabytes\n" << endl;
             cout << endl;
             break;
         default:
